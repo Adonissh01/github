@@ -8,10 +8,11 @@
 </head>
 <body>
     <div>
+        
         <form>
-        <table align="b">
-            <tr>
-                <td width=>
+        <table border="2" style="background-color: lightblue; padding-top: 100px; >
+            <tr style="color:blueviolet">
+                <td >
                     <label for="title">Title</label>
                     
                 </td>
@@ -20,7 +21,8 @@
 
                 </td>
                 <td  >
-                    <label for="x">Subj:</label>
+                    <label for="subj">Subj:</label><br>
+                    
                 </td>
                 <td >
                     <label for="number">Number</label>
@@ -32,23 +34,29 @@
                     <label for="year">Year</label>
                 </td>
             </tr>
-            <tr>
+            <tr >
                 <td ><input name="title" id="title" type="text" value="Astronomy of poets" size="50"></td>
                 <td><input name="stitle" id="stitle" type="text" value="Astr. for poets" size="30"></td>
-                <td></td>
+                <td><pre>BLST</pre></td>
                 <td><input name="number" id="number" type="number" value="10" size="2" ></td>
                 <td><input name="sec" id="sec" type="=number" value="01" size="2"></td>
                 <td><input name="year" id="year" type="number" value="0910"  size="2" readonly></td>
             </tr><br>
+        </table>
+        </form>
+       </div> 
+
+            
+        
 
             
    
-</table>
-</form>
-    </div><br><br>
+
+
+    <br><br>
 
     <div>
-        <table border="1"  >
+        <table border="2" style="background-color: lightblue; padding-bottom: 100px;" >
             <tr >
             <td >
             <input type="checkbox" name="el" >
@@ -73,7 +81,7 @@
                 <option value="2">2</option>
             </select>
             </td>
-            <td>
+            <td rowspan="4">
                 <label>Keywords:</label><br>
                 <input type="checkbox" name="sc" id="sc">
                 <label>Fine art for non major</label><br>
@@ -192,13 +200,13 @@
     </div>
     <br><br>
     <div>
-        <table>
+        <table border=2 style="background-color: lightblue; ">
 
             <tr>
-                <td>
+                <td width="30">
                     <label><b>Approvals</b></label>
                 </td>
-                <td>
+                <td >
                     <label><b>Date</b></label>
                 </td>
                 <td>
@@ -207,13 +215,15 @@
             </tr>
 
 
-            <tr Style=background-color:grey>
+            <tr >
                 <td >
                     <input type="checkbox">
                     <label>CEF</label>
                 </td>
                 <td>
-                    <label>+</label>
+                    
+                    <label  >+</label>
+                    
                     <input type="text" >
                 </td>
                 <td>
@@ -222,7 +232,7 @@
                 </td>
             </tr>
 
-            <tr Style=background-color:grey>
+            <tr >
                 <td>
                     <input type="checkbox">
                     <label>committee of six</label>
@@ -237,7 +247,7 @@
                 </td>
             </tr>
 
-            <tr Style=background-color:grey>
+            <tr >
                 <td>
                     <input type="checkbox">
                     <label>Faculty</label>
